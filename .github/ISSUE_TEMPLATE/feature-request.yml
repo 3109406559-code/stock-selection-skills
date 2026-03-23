@@ -1,0 +1,46 @@
+name: Feature request
+description: Suggest an improvement for stock selection, capital tracking, or repo tooling.
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Focus on the user problem first, then the implementation.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What user workflow is blocked or awkward today?
+      placeholder: The skill can track approximate portfolio state, but it cannot yet infer cash updates from a log file.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should the skill or repo do differently?
+      placeholder: Add a helper script that rebuilds portfolio_state.json from dated Markdown logs.
+    validations:
+      required: true
+  - type: textarea
+    id: user_prompt
+    attributes:
+      label: Example user prompt
+      description: What would a real user say that should trigger this feature?
+      placeholder: 帮我从股票日志里恢复当前资金和持仓状态
+  - type: dropdown
+    id: area
+    attributes:
+      label: Main area
+      options:
+        - Skill workflow
+        - Data fetching
+        - Capital tracking
+        - Logging
+        - README / repo presentation
+        - Validation / CI
+    validations:
+      required: true
+

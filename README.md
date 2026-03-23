@@ -41,7 +41,12 @@ Built for the post-close to next-open window, with executable board-lot checks, 
   <img src="./assets/social-preview.svg" alt="social preview artwork" width="92%" />
 </div>
 
-Use `assets/social-preview.svg` as the source artwork for your GitHub social preview image if you want to upload a custom repo preview from the GitHub settings page.
+Ready-to-upload preview files:
+
+- `assets/social-preview.png`
+- `assets/social-preview.svg`
+
+If you want to set a custom GitHub social preview image, upload `assets/social-preview.png` from the GitHub repository settings page.
 
 ## Why This Repo Exists
 
@@ -171,6 +176,14 @@ This repository includes:
 - Portfolio Tracking
 - Docs And Presentation
 - Maintenance
+
+## Collaboration Templates
+
+This repository now includes:
+
+- issue forms for bug reports and feature requests
+- a pull request template for cleaner reviews
+- release-note categories via `./.github/release.yml`
 
 ## Disclaimer
 

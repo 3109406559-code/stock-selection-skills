@@ -1,0 +1,61 @@
+name: Bug report
+description: Report a reproducible bug in the skill, scripts, or validation flow.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a bug. Please provide enough detail to reproduce the problem quickly.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What broke, and where did it happen?
+      placeholder: The skill recommended an unexecutable one-word limit-up stock even though deployable cash was known.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include the exact prompt, command, or sequence.
+      placeholder: |
+        1. Run ...
+        2. Ask ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: input
+    id: market_date
+    attributes:
+      label: Market date
+      description: Which trading day or post-close window was involved?
+      placeholder: 2026-03-23
+  - type: input
+    id: ticker
+    attributes:
+      label: Related ticker
+      description: Optional, but helpful when the bug is stock-specific.
+      placeholder: 000862
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: The skill should have downgraded the stock to watchlist-only.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: The skill returned an exact executable entry plan.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste relevant CLI output, traceback, or screenshots if available.
+
