@@ -1,0 +1,4 @@
+interface:
+  display_name: "A-Share Stock Picker"
+  short_description: "Pick mainland A-shares with capital-aware sizing, position management, and logging."
+  default_prompt: "Use $a-share-stock-picker to recommend or manage mainland A-shares with Tonghuashun data, hard filters, structure-based buy/sell plans, approximate portfolio-state tracking in 股票日志, and capital-aware board-lot sizing."

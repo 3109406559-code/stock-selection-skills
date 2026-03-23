@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+股票日志/
+portfolio_state.json
+*.log
+
