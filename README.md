@@ -7,7 +7,6 @@ Capital-aware A-share stock selection and position-management skill for Codex.
 Designed for the post-close to pre-open window, with structure-based plans, capital feasibility checks, and persistent portfolio-state logging.
 
 <p>
-  <img src="https://img.shields.io/github/actions/workflow/status/3109406559-code/stock-selection-skills/ci.yml?branch=main&label=CI" alt="CI">
   <img src="https://img.shields.io/github/license/3109406559-code/stock-selection-skills" alt="License">
   <img src="https://img.shields.io/badge/Python-3.12-blue" alt="Python 3.12">
   <img src="https://img.shields.io/badge/Market-A--Share-red" alt="A-Share">
@@ -68,9 +67,6 @@ stock-selection-skills/
 │  ├─ portfolio_state.py
 │  ├─ requirements.txt
 │  └─ smoke_test.py
-└─ .github/
-   └─ workflows/
-      └─ ci.yml
 ```
 
 ## Quick Start
@@ -123,9 +119,8 @@ python -m venv .venv
 This repository includes:
 
 - a networked smoke test via `scripts/smoke_test.py`
-- a lightweight GitHub Action that validates imports, merge logic, and portfolio-state CLI behavior
+- a deterministic local validation path for merge logic and portfolio-state CLI behavior
 
 ## Disclaimer
 
 This repository is for research workflow automation and skill packaging. It is not investment advice, not a broker integration, and not a guarantee of tradability or performance.
-
