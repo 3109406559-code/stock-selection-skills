@@ -1,0 +1,26 @@
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+  categories:
+    - title: "Core Skill Logic"
+      labels:
+        - skill
+        - logic
+    - title: "Data And Pricing"
+      labels:
+        - data
+        - pricing
+    - title: "Portfolio Tracking"
+      labels:
+        - portfolio
+        - capital
+    - title: "Docs And Presentation"
+      labels:
+        - docs
+        - readme
+        - design
+    - title: "Maintenance"
+      labels:
+        - chore
+        - infra

@@ -1,0 +1,43 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="104" y1="78" x2="1188" y2="601" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071726"/>
+      <stop offset="0.45" stop-color="#0E4661"/>
+      <stop offset="1" stop-color="#1A7F72"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="821" y1="205" x2="1090" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#FF8A3D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" rx="28" fill="url(#bg)"/>
+  <circle cx="1086" cy="112" r="178" fill="#2AB7CA" fill-opacity="0.1"/>
+  <circle cx="178" cy="520" r="216" fill="#FFD166" fill-opacity="0.08"/>
+
+  <rect x="116" y="112" width="1048" height="416" rx="34" fill="#0B2233" fill-opacity="0.28" stroke="#8FD9E6" stroke-opacity="0.24" stroke-width="2"/>
+  <text x="162" y="192" fill="#A8F0FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Codex skill • A-share workflow • open source</text>
+  <text x="160" y="274" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">stock selection skills</text>
+  <text x="160" y="332" fill="#D7EEF2" font-family="Segoe UI, Arial, sans-serif" font-size="24">Capital-aware selection, position management, and</text>
+  <text x="160" y="368" fill="#D7EEF2" font-family="Segoe UI, Arial, sans-serif" font-size="24">portfolio-state tracking for mainland A-shares.</text>
+
+  <rect x="162" y="426" width="272" height="62" rx="20" fill="#0D5F79"/>
+  <text x="191" y="465" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">Tonghuashun + AkShare</text>
+
+  <rect x="456" y="426" width="238" height="62" rx="20" fill="#163449"/>
+  <text x="485" y="465" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">board-lot sizing</text>
+
+  <rect x="716" y="426" width="258" height="62" rx="20" fill="#163449"/>
+  <text x="745" y="465" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">persistent holdings log</text>
+
+  <g>
+    <rect x="872" y="176" width="202" height="184" rx="28" fill="#0F2535"/>
+    <rect x="892" y="196" width="162" height="42" rx="14" fill="url(#shine)"/>
+    <text x="914" y="223" fill="#0A2231" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">live position state</text>
+    <text x="892" y="278" fill="#8FD9E6" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">cash available</text>
+    <text x="892" y="310" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">¥ 519</text>
+    <text x="892" y="342" fill="#8FD9E6" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">position ratio</text>
+    <text x="892" y="374" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">83.44%</text>
+  </g>
+</svg>
+
